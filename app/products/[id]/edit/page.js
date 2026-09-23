@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import { useParams, useRouter } from "next/navigation";
 import { ArrowLeft } from "lucide-react";
-import Link from "next/link";
+import Link from "next/link"
 import ProductForm from "../../../../components/ProductForm";
 import { getProductById, updateProduct } from "../../../../services/products";
 import { useProductOverrides } from "../../../../context/ProductOverridesContext";
