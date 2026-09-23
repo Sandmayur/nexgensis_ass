@@ -85,7 +85,7 @@ export default function ProductForm({ initialData = {}, onSubmit, isSubmitting }
 
         <div>
           <label htmlFor="price" className="block text-sm font-medium leading-6 text-gray-900">
-            Price ($) <span className="text-red-500">*</span>
+            Price (₹) <span className="text-red-500">*</span>
           </label>
           <div className="mt-2">
             <input

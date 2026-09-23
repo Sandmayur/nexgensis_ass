@@ -19,7 +19,7 @@ export default function ProductCard({ products, onDelete }) {
               </h3>
               <p className="mt-1 text-sm text-gray-500 capitalize">{product.category?.replace('-', ' ')}</p>
               <div className="mt-2 flex items-center justify-between">
-                <span className="text-sm font-bold text-gray-900">${Number(product.price).toFixed(2)}</span>
+                <span className="text-sm font-bold text-gray-900">₹{Number(product.price).toFixed(2)}</span>
                 <div className="flex items-center text-sm text-gray-700">
                   <Star className="w-4 h-4 text-yellow-400 mr-1 fill-yellow-400" />
                   {product.rating || 0}
