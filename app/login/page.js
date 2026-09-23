@@ -13,7 +13,7 @@ export default function LoginPage() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    if (isSubmitting) return; // Double-submit guard
+    if (isSubmitting) return;
 
     setError("");
     setIsSubmitting(true);
