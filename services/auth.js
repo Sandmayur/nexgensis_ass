@@ -20,7 +20,7 @@ export const login = async (credentials) => {
   }
 
  
-  throw new Error("Invalid credentials. Please use mayur / 12345678");
+  throw new Error("Invalid username or password.");
 };
 
 /**
